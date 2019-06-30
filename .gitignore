@@ -32,6 +32,11 @@ node_modules
 /scripts
 /src/environment.js
 /src/environment.ts
-/dist
+/wwwroot/dist
 /test/coverage-jest
 /test/coverage-karma
+/bin
+/obj
+
+# User data
+.chrome/*
