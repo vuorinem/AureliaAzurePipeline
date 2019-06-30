@@ -1,3 +1,3 @@
 export class App {
-  public message: string = 'Hallo World!';
+  public message: string = 'Hello World!';
 }
