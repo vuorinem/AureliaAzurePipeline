@@ -32,3 +32,9 @@ steps:
 
 - script: npm test
   displayName: 'npm test'
+
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testRunner: JUnit
+    testResultsFiles: 'junit.xml'
