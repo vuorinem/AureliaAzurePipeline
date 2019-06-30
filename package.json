@@ -112,7 +112,8 @@
       "json",
       "lcov",
       "text",
-      "html"
+      "html",
+      "cobertura"
     ],
     "reporters": [
       "default",
