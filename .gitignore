@@ -37,6 +37,7 @@ node_modules
 /test/coverage-karma
 /bin
 /obj
+junit.xml
 
 # User data
 .chrome/*
