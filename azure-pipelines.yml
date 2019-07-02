@@ -44,6 +44,9 @@ steps:
     codeCoverageTool: 'cobertura'
     summaryFileLocation: '$(System.DefaultWorkingDirectory)/test/coverage-jest/cobertura-coverage.xml'
 
+- script: dotnet clean
+  displayName: 'dotnet clean'
+
 - task: DotNetCoreCLI@2
   inputs:
     command: publish
