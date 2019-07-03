@@ -51,3 +51,5 @@ steps:
   inputs:
     command: publish
     zipAfterPublish: True
+
+- task: PublishBuildArtifacts@1
