@@ -24,9 +24,6 @@ steps:
 - script: yarn install
   displayName: 'yarn install'
 
-- script: yarn build
-  displayName: 'yarn build'
-
 - script: yarn test
   displayName: 'yarn test'
 
