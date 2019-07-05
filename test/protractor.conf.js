@@ -51,6 +51,13 @@ exports.config = {
 
   onPrepare: function() {
     require('ts-node').register({ compilerOptions: { module: 'commonjs' }, disableWarnings: true, fast: true });
+
+    var jasmineReporters = require('jasmine-reporters');
+    jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
+      consolidateAll: true,
+      savePath: '.',
+      filePrefix: 'reportXMLoutput',
+    }));
   },
 
   plugins: [{
