@@ -41,10 +41,8 @@ exports.config = {
         '--disable-background-timer-throttling',
         '--disable-renderer-backgrounding',
         '--disable-device-discovery-notifications',
-        /* enable these if you'd like to test using Chrome Headless
-          '--no-gpu',
-          '--headless'
-        */
+        '--no-gpu',
+        '--headless',
       ]
     }
   },
