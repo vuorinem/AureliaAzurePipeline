@@ -118,7 +118,7 @@
     ],
     "reporters": [
       "default",
-      "jest-junit"
+      ["jest-junit", { "output": "./testresults/jest-junit.xml" } ]
     ]
   }
 }

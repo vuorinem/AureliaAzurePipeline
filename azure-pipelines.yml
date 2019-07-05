@@ -31,7 +31,7 @@ steps:
   condition: succeededOrFailed()
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '$(System.DefaultWorkingDirectory)/junit.xml'
+    testResultsFiles: '$(System.DefaultWorkingDirectory)/testresults/*.xml'
 
 - task: PublishCodeCoverageResults@1
   inputs:
