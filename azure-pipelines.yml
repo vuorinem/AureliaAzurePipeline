@@ -17,10 +17,6 @@ steps:
   inputs:
     version: '2.2.300'
 
-- task: NodeTool@0 
-  inputs:
-    versionSpec: '10.x'
-
 - script: yarn install
   displayName: 'yarn install'
 
