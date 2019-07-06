@@ -108,7 +108,7 @@
       "!**/node_modules/**",
       "!**/test/**"
     ],
-    "coverageDirectory": "<rootDir>/test/coverage-jest",
+    "coverageDirectory": "<rootDir>/testresults/coverage",
     "coverageReporters": [
       "json",
       "lcov",

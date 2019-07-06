@@ -36,7 +36,7 @@ steps:
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'cobertura'
-    summaryFileLocation: '$(System.DefaultWorkingDirectory)/test/coverage-jest/cobertura-coverage.xml'
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/testresults/coverage/*.xml'
 
 - script: dotnet clean
   displayName: 'dotnet clean'
