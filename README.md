@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/mikkovuorinen0188/AureliaAzurePipelines/_apis/build/status/vuorinem.AureliaAzurePipeline?branchName=master)](https://dev.azure.com/mikkovuorinen0188/AureliaAzurePipelines/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/mikkovuorinen0188/AureliaAzurePipelines/_apis/build/status/vuorinem.AureliaAzurePipeline?branchName=main)](https://dev.azure.com/mikkovuorinen0188/AureliaAzurePipelines/_build/latest?definitionId=1&branchName=main)
 
 # `aurelia-azure-pipeline`
 
